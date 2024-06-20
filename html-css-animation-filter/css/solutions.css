@@ -27,3 +27,16 @@
   opacity: 0;
   transition: opacity 5s ease;
 }
+
+/* Esercizio 5 */
+.ex-5-square {
+  transition: transform 0.5s ease;
+}
+
+.ex-5-square:hover {
+  transform: scale(1.2);
+}
+
+.ex-5-square:active {
+  transform: scale(0.8);
+}
