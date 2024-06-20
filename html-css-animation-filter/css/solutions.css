@@ -49,3 +49,13 @@
 .ex-6-img:hover {
   filter: grayscale(100%);
 }
+
+/* Esercizio 7 */
+.ex-7-img {
+  transition: filter 0.5s ease, transform 0.5s ease;
+}
+
+.ex-7-img:hover {
+  filter: sepia(100%);
+  transform: scale(1.1);
+}
