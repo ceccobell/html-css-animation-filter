@@ -69,3 +69,14 @@
   filter: brightness(50%) sepia(100%);
   border-radius: 15px;
 }
+
+/* Esercizio 9 */
+.ex-9-img {
+  transition: filter 0.5s ease, transform 0.5s ease, border-radius 0.5s ease;
+}
+
+.ex-9-img:hover {
+  filter: blur(2px);
+  transform: rotate(90deg) scale(0.8);
+  border-radius: 15px;
+}
