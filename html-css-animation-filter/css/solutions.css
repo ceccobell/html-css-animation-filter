@@ -59,3 +59,13 @@
   filter: sepia(100%);
   transform: scale(1.1);
 }
+
+/* Esercizio 8 */
+.ex-8-img {
+  transition: filter 0.5s ease, border-radius 0.5s ease;
+}
+
+.ex-8-img:hover {
+  filter: brightness(50%) sepia(100%);
+  border-radius: 15px;
+}
