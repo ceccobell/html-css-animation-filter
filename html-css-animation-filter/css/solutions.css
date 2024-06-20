@@ -80,3 +80,17 @@
   transform: rotate(90deg) scale(0.8);
   border-radius: 15px;
 }
+
+/* Esercizio 10 */
+.ex-10-icon {
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
