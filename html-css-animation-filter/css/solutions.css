@@ -111,3 +111,17 @@
     transform: rotate(0deg);
   }
 }
+
+/* Esercizio 12 */
+.ex-12-top-white,
+.ex-12-bottom-white {
+  transition: transform 0.5s ease;
+}
+
+.ex-12-button:hover .ex-12-top-white {
+  transform: translateX(70px);
+}
+
+.ex-12-button:hover .ex-12-bottom-white {
+  transform: translateX(-70px);
+}
